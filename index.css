@@ -1,0 +1,99 @@
+* , ::before , ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.discussion{
+    background-color: #333;
+}
+/* Mettre la box shadow */
+.item{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: #F0F0F0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-titre{
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 70px auto 0;
+}   
+
+.blog-input{
+    font-size: 15px;
+    background-color: #F0F0F0;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 20px 10px;
+margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+.creation-blog-titre{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+.creation-blog-input{
+    display: block;
+    margin: 10px;
+
+}
+.sujet{
+    padding: 10px 5px 10px 5px ;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+.sujet:focus{
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+}
+.message{
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    resize: none;
+}
+
+.creation-blog-bouton{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border: 1px solid crimson;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    display: block;
+    transition: 1s ease all;
+}
+.creation-blog-bouton:hover{
+    background-color: crimson;
+    color: white;
+    transform: 1s ease all;
+
+}
